@@ -1,6 +1,6 @@
 {
     "version": "1.7-20230421-1cfa65",
-    "description": "Modified spotify client. Blocks ads and updates, and more.",
+    "description": "Modified spotify client. Blocks ads and updates, and more. This manifests uses Spotify's old theme, as well as enabling SpotX's cache cleaning",
     "homepage": "https://github.com/amd64fox/SpotX",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/amd64fox/SpotX/main/Install.ps1",
