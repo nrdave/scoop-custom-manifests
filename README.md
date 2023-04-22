@@ -1,4 +1,4 @@
-# Scoop Bucket Template
+# Scoop Bucket/App List
 
 
 [![Tests](https://github.com/nrdave/scoop-custom-manifests/actions/workflows/ci.yml/badge.svg)](https://github.com/nrdave/scoop-custom-manifests/actions/workflows/ci.yml)
@@ -18,7 +18,10 @@ To make a new manifest contribution, please read the [Contributing Guide](https:
 
 ----
 
-#### To use this template
-
-- Modify the Readme.md and the bin/auto-pr.ps1 files accordingly.
-- Enable GitHub Actions for this repository.
+To install all apps I use
+```
+scoop bucket add main
+scoop bucket add extras
+scoop bucket add scoop-custom-manifests https://github.com/nrdave/scoop-custom-manifests
+scoop install draw.io ffmpeg-shared firefox gimp hwinfo kdenlive libreoffice miktex mingw obs-studio pdfsam powertoys python texstudio ungoogled-chromium vlc vscodium winaero-tweaker windirstat youtube-dl spotx-np-custom
+```
